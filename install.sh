@@ -37,7 +37,7 @@ wget https://github.com/penguinehis/WaBot-VendasSSH/raw/main/mult/qrcode > /dev/
 wget https://github.com/penguinehis/WaBot-VendasSSH/raw/main/mult/config.js > /dev/null 2>&1
 chmod +x onbot offbot qrcode
 mv onbot offbot qrcode /bin
-wget https://github.com/penguinehis/WaBot-VendasSSH/raw/main/mult/megahbot.zip -O /etc/megahbot.zip > /dev/null 2>&1
+wget https://github.com/DuiBR/MEUBOT/blob/main/mult/megahbot.zip -O /etc/megahbot.zip > /dev/null 2>&1
 unzip /etc/megahbot.zip
 mv megahbot /etc
 echo
